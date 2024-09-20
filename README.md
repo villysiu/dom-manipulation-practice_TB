@@ -65,6 +65,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Elements</title>
+  <style>
+        .completed {
+            text-decoration: line-through;
+        }
+    </style>
 </head>
 <body>
     <h2>To-Do List</h2>
@@ -75,12 +80,6 @@
     <button id="add-task">Add Task</button>
     <button id="remove-task">Remove Last Task</button>
     <button id="clear-list">Clear List</button>
-
-    <style>
-        .completed {
-            text-decoration: line-through;
-        }
-    </style>
 
     <script src="todo.js"></script>
 </body>
