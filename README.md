@@ -13,22 +13,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic DOM Manipulation</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Basic DOM Manipulation</title>
 </head>
 <body>
-    <h1 id="main-heading">Welcome to My Website</h1>
-    <p class="description">This is a simple paragraph of text.</p>
-    <ul id="item-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <button id="change-text">Change Heading Text</button>
-    <button id="add-item">Add List Item</button>
+<h1 id="main-heading">Welcome to My Website</h1>
+<p class="description">This is a simple paragraph of text.</p>
+<ul id="item-list">
+   <li>Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3</li>
+</ul>
+<button id="change-text">Change Heading Text</button>
+<button id="add-item">Add List Item</button>
 
-    <script src="app.js"></script>
+<script src="ticket_1_basic_DOM_manipulation/app.js"></script>
 </body>
 </html>
 ```

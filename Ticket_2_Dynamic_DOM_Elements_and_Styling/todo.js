@@ -24,11 +24,7 @@ const liList = document.querySelectorAll("li");
 
 for(let liEl of liList){
     liEl.addEventListener("click", ()=>{
-        console.log("li lcickl")
         liEl.classList.toggle("completed")
-        // const completeCl = document.getElementsByClassName("completed");
-        // completeCl.style.backgroundColor = "blue";
-
 
     })
 }
